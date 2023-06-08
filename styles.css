@@ -264,7 +264,7 @@ header {
 
 .imagem-ampliada {
     display: block;
-    margin: 0 auto;
+    margin: 5%  auto auto auto;
     max-width: 90%;
     max-height: 80vh;
 }
