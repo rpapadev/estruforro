@@ -67,6 +67,7 @@ header {
     color: #ffffff;
     font-size: 66px;
     z-index: 1;
+    white-space: nowrap;
 }
 
 .background-section .image-overlay::before {
