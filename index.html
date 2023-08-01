@@ -89,6 +89,21 @@
         <img id="imagemAmpliada" class="imagem-ampliada" src="" alt="Imagem Ampliada">
     </div>
 
+    <section class="email">
+        <h2>Mande sua mensagem!</h2>
+        <form action="https://formspree.io/f/moqojlzk" method="POST" target="_blank" onsubmit="return validateForm()">
+            <label>
+                Seu email:
+                <input type="email" name="email" required>
+            </label>
+            <label>
+                Mensagem:
+                <textarea name="message" required></textarea>
+            </label>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
     <section class="atendimento">
         <h2>Atendimento</h2>
         <p>Email: metagalv.rep@gmail.com</p>
